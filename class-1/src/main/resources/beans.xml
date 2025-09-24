@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
-    
-<!--    https://docs.spring.io/spring-framework/reference/core/beans/basics.html-->
-    <bean id="calculatorService" class="com.coursojava.CalculatorService">
+
+<!--    TENEMOS 2 TIPOS DE scope:-->
+<!--    singleton que esta por defecto-->
+<!--    prototype que crea una instancia nueva cada vez que lo inyecta..-->
+
+    <!--    https://docs.spring.io/spring-framework/reference/core/beans/basics.html-->
+
+    <bean id="calculatorService" class="com.coursojava.CalculatorService" scope="prototype">
         <!-- collaborators and configuration for this bean go here -->
     </bean>
 
+    <bean id="invoiceService" class="com.coursojava.InvoiceService" >
+        <constructor-arg name="calculatorService" ref="calculatorService"/>
+        <constructor-arg name="name" value="Facturator 3000"/>
+    </bean>
 
 
     <!-- more bean definitions go here -->
