@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f9e92d-3665-48ef-8c52-29d6badb4e24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jpa_example/repositories/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jpa_example/JpaExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jpa_example/JpaExampleApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="75f9e92d-3665-48ef-8c52-29d6badb4e24" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.JpaExampleApplication.executor": "Debug",
+    "Application.JpaExampleApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -63,16 +60,5 @@
       <updated>1758743017784</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/jpa_example/JpaExampleApplication.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
