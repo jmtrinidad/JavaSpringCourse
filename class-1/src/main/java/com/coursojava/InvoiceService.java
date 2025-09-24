@@ -1,13 +1,19 @@
 package com.coursojava;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class InvoiceService {
 
     // Atributos
-    private CalculatorService calculatorService;
+      CalculatorService calculatorService;
+
+    @Value("Factura Calculator 300")
     String name;
 
     // Constructores
-    public InvoiceService(CalculatorService calculatorService, String name) {
+    public InvoiceService(CalculatorService calculatorService) {
 
         System.out.println("Ejecutando Constructor de InvoiceService");
 

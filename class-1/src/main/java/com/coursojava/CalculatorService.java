@@ -1,5 +1,8 @@
 package com.coursojava;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CalculatorService {
 
 

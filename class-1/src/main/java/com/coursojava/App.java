@@ -24,7 +24,7 @@ public class App {
     // EJEMPLO DE COMO CARGAR UN beans dentro de otro beans
     InvoiceService invoiceService = (InvoiceService) context.getBean("invoiceService");
 
-    System.out.println(invoiceService.name);
+    System.out.println(invoiceService.calculatorService.helloWorld());
 
     // CONCEPTO:
     //  Los beans por defecto son singleto, se crea el objeto y se reutiliza para toda la
