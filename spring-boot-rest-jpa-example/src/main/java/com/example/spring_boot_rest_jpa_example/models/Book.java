@@ -37,6 +37,7 @@ public class Book {
       Double price,
       LocalDate realeaseDate,
       Boolean online) {
+
     this.id = id;
     this.author = author;
     this.title = title;
@@ -48,7 +49,7 @@ public class Book {
 
   // Gets and Sets
 
-  public Long id() {
+  public Long getId() {
     return id;
   }
 
@@ -57,7 +58,7 @@ public class Book {
     return this;
   }
 
-  public String author() {
+  public String getAuthor() {
     return author;
   }
 
@@ -66,7 +67,7 @@ public class Book {
     return this;
   }
 
-  public String title() {
+  public String getTitle() {
     return title;
   }
 
@@ -75,7 +76,7 @@ public class Book {
     return this;
   }
 
-  public Integer pages() {
+  public Integer getPages() {
     return pages;
   }
 
@@ -84,7 +85,7 @@ public class Book {
     return this;
   }
 
-  public Double price() {
+  public Double getPrice() {
     return price;
   }
 
@@ -93,7 +94,7 @@ public class Book {
     return this;
   }
 
-  public LocalDate realeaseDate() {
+  public LocalDate getRealeaseDate() {
     return realeaseDate;
   }
 
@@ -102,7 +103,7 @@ public class Book {
     return this;
   }
 
-  public Boolean online() {
+  public Boolean getOnline() {
     return online;
   }
 
